@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="637cce19-182e-46f8-ae2e-1740e6cc31d0">
+<Properties>
+<Name>JT: ASOIAF Ancient Times Map</Name>
+<Stability>Final</Stability>
+<Teaser>>Play the ASOIAF in the Ancient World Map with Valyria, Ghis, Sarnor, Rhoyne, the Children of the Forest and the rest of Civs.</Teaser>
+<Description>>Play the ASOIAF in the Ancient World Map with Valyria, Ghis, Sarnor, Rhoyne, the Children of the Forest and the rest of Civs.</Description>
+<Authors>JT</Authors>
+</Properties>
+<Dependencies>
+    <Mod id="6e66a293-6a21-4650-bb3e-58d55c5fbcc1" title="JT: A Song of Ice And Fire" />
+    <Mod id="9f9e21fb-ffd8-495a-a8cc-2d9f13b9cfc5" title="JT: A Song of Ice And Fire Ancient" />
+  </Dependencies>
+<Settings>
+	<Custom id="ASOIAFAncientMAP_SETTINGS">
+		<Items>
+			<File>CM_Config.xml</File>
+		</Items>
+	</Custom>
+	
+
+	<Map id="AddMapASOIAFAncient">
+		<Properties>
+			<Group>StandardMaps</Group>
+        	<Name>ASOIAF Ancient Map</Name>
+        	<Description>ASOIAF Map of the Ancient World</Description>
+		</Properties>
+		<Items>
+			<File>Maps/ASOIAF_World_AncientPlayers.Civ6Map</File>
+		</Items>
+	</Map>
+
+
+	<Map id="AddMapASOIAFAncientR&amp;F">
+		<Properties>
+			<Group>Maps:Expansion1Maps</Group>
+        	<Name>ASOIAF Ancient Map</Name>
+        	<Description>ASOIAF Map of the Ancient World</Description>
+		</Properties>
+		<Items>
+			<File>Maps/ASOIAF_World_AncientPlayers.Civ6Map</File>
+		</Items>
+	</Map>
+	<Map id="AddMapWesterosAncient">
+		<Properties>
+			<Group>StandardMaps</Group>
+        	<Name>ASOIAF Westeros Ancient Map</Name>
+        	<Description>ASOIAF Map of the Ancient Westeros</Description>
+		</Properties>
+		<Items>
+			<File>Maps/WESTEROS_WorldAncient_Players.Civ6Map</File>
+		</Items>
+	</Map>
+
+
+	<Map id="AddMapWesterosAncientR&amp;F">
+		<Properties>
+			<Group>Maps:Expansion1Maps</Group>
+        	<Name>ASOIAF Westeros Ancient Map</Name>
+        	<Description>ASOIAF Map of the Ancient Westeros</Description>
+		</Properties>
+		<Items>
+			<File>Maps/WESTEROS_WorldAncient_Players.Civ6Map</File>
+		</Items>
+	</Map>
+</Settings>
+
+
+<Components>
+	<UpdateDatabase />
+</Components>
+
+<Files>
+		<File>Maps/ASOIAF_World_AncientPlayers.Civ6Map</File>
+        <File>Maps/ASOIAF_World_AncientTemplate.Civ6Map</File>
+        <File>Maps/WESTEROS_WorldAncient_Players.Civ6Map</File>
+		<File>CM_Config.xml</File>
+</Files>
+</Mod>

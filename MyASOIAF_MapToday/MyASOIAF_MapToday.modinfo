@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="e391396d-e1a4-4973-9179-dadd0149b1de">
+<Properties>
+<Name>JT: ASOIAF Today Map</Name>
+<Stability>Final</Stability>
+<Teaser>JT: ASOIAF Today Map</Teaser>
+<Description>In the player selection screen you have to choose the civilizationS that you want in this map. You can choose between Rob, Edmure, Petyr, Tywin, Stannis, Olenna, Joffrey, Doran, .... (Remove Random players if you don't want them to appear). The City states are fixed.</Description>
+<Authors>JT</Authors>
+</Properties>
+<Dependencies>
+    <Mod id="6e66a293-6a21-4650-bb3e-58d55c5fbcc1" title="JT: A Song of Ice And Fire " />
+  </Dependencies>
+<Settings>
+	<Custom id="ASOAIFMAP_SETTINGS">
+		<Items>
+			<File>CM_Config.xml</File>
+		</Items>
+	</Custom>
+	
+
+	<Map id="AddASOAIFTodayMap">
+		<Properties>
+			<Group>StandardMaps</Group>
+        	<Name>ASOIAF Today Map</Name>
+        	<Description>ASOAIF Map of today</Description>
+		</Properties>
+		<Items>
+			<File>Maps/ASOIAF_World_Players.Civ6Map</File>
+		</Items>
+	</Map>
+
+	<Map id="AddASOAIFWesterosMap">
+		<Properties>
+			<Group>StandardMaps</Group>
+			<Name>ASOIAF Westeros Map</Name>
+			<Description>ASOAIF Map of Westeros</Description>
+		</Properties>
+		<Items>
+			<File>Maps/WESTEROS_World_Players.Civ6Map</File>
+		</Items>
+	</Map>
+
+	<Map id="AddASOAIFTodayMapR&amp;F">
+		<Properties>
+			<Group>Maps:Expansion1Maps</Group>
+        	<Name>ASOIAF Today Map</Name>
+        	<Description>ASOAIF Map of today</Description>
+		</Properties>
+		<Items>
+			<File>Maps/ASOIAF_World_Players.Civ6Map</File>
+		</Items>
+	</Map>
+
+	<Map id="AddASOAIFWesterosMapR&amp;F">
+		<Properties>
+			<Group>Maps:Expansion1Maps</Group>
+			<Name>ASOIAF Westeros Map</Name>
+			<Description>ASOAIF Map of Westeros</Description>
+		</Properties>
+		<Items>
+			<File>Maps/WESTEROS_World_Players.Civ6Map</File>
+		</Items>
+	</Map>
+</Settings>
+
+
+<Components>
+	<UpdateDatabase />
+</Components>
+
+<Files>
+		<File>Maps/WESTEROS_World_Players.Civ6Map</File>
+        <File>Maps/ASOIAF_World_Players.Civ6Map</File>
+		<File>CM_Config.xml</File>
+</Files>
+</Mod>

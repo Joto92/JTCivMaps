@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="eb08c16d-d822-413e-8825-080beb5873df">
+<Properties>
+<Name>JT: WOW Complete Map Pack</Name>
+<Stability>Final</Stability>
+<Teaser>Pack with Maps of the Warcraft World</Teaser>
+<Description>Pack with Maps of the Warcraft World</Description>
+<Authors>JT</Authors>
+</Properties>
+<Dependencies>
+    <Mod id="f1c32ba6-b50b-413a-b251-1ac8147f289a" title="JT: WOW Civs" />
+    <Mod id="49febb20-5127-49ad-bdb5-5aa5d5d2f38a" title="JT: World Of Warcraft Extra Leaders" />
+    <Mod id="0951944c-126e-47b4-ae58-53d4a583875f" title="JT: World Of Warcraft Historial Leaders" />
+  </Dependencies>
+<Settings>
+	<Custom id="WOWPACKMAP_SETTINGS">
+		<Items>
+			<File>CM_Config.xml</File>
+		</Items>
+	</Custom>
+	
+
+	<Map id="AddMapWOWComplete">
+		<Properties>
+			<Group>StandardMaps</Group>
+        	<Name>WOW Complete Map</Name>
+        	<Description>WOW Complete Map</Description>
+		</Properties>
+		<Items>
+			<File>Maps/WOW_World_PlayersExtra.Civ6Map</File>
+		</Items>
+	</Map>
+
+	<Map id="AddMapWOWCompleteR&amp;F">
+		<Properties>
+			<Group>Maps:Expansion1Maps</Group>
+        	<Name>WOW Complete Map</Name>
+        	<Description>WOW Complete Map</Description>
+		</Properties>
+		<Items>
+			<File>Maps/WOW_World_PlayersExtra.Civ6Map</File>
+		</Items>
+	</Map>
+
+	<Map id="AddMapWOWPreCata">
+		<Properties>
+			<Group>StandardMaps</Group>
+        	<Name>WOW Pre Cata Map</Name>
+        	<Description>WOW Pre Cataclysm Map</Description>
+		</Properties>
+		<Items>
+			<File>Maps/WOW_World_PREPlayersExtra.Civ6Map</File>
+		</Items>
+	</Map>
+
+	<Map id="AddMapWOWPreCataR&amp;F">
+		<Properties>
+			<Group>Maps:Expansion1Maps</Group>
+        	<Name>WOW Pre Cata Map</Name>
+        	<Description>WOW Pre Cataclysm Map</Description>
+		</Properties>
+		<Items>
+			<File>Maps/WOW_World_PREPlayersExtra.Civ6Map</File>
+		</Items>
+	</Map>
+
+	<Map id="AddMapWOWAncient">
+		<Properties>
+			<Group>StandardMaps</Group>
+        	<Name>WOW Ancient Map</Name>
+        	<Description>WOW Ancient Map</Description>
+		</Properties>
+		<Items>
+			<File>Maps/WOW_Ancient_World_PlayersV2.Civ6Map</File>
+		</Items>
+	</Map>
+
+	<Map id="AddMapWOWAncientR&amp;F">
+		<Properties>
+			<Group>Maps:Expansion1Maps</Group>
+        	<Name>WOW Ancient Map</Name>
+        	<Description>WOW Ancient Map</Description>
+		</Properties>
+		<Items>
+			<File>Maps/WOW_Ancient_World_PlayersV2.Civ6Map</File>
+		</Items>
+	</Map>
+</Settings>
+
+
+<Components>
+	<UpdateDatabase />
+</Components>
+
+<Files>
+		<File>Maps/WOW_World_PlayersExtra.Civ6Map</File>
+        <File>Maps/WOW_World_PREPlayersExtra.Civ6Map</File>
+        <File>Maps/WOW_Ancient_World_PlayersV2.Civ6Map</File>
+		<File>CM_Config.xml</File>
+</Files>
+</Mod>

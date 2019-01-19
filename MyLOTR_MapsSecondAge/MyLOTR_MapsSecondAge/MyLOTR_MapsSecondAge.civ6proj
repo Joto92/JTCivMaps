@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>JT: LOTR Second Age</Name>
+    <Guid>3b2ab406-7601-42aa-b6c1-41127840db7b</Guid>
+    <ProjectGuid>3d7d81d0-3526-4cf5-a59c-98220719e7f4</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>Play the Second Age of Lord of the Rings</Teaser>
+    <Description>Play the Second Age of Lord of the Rings</Description>
+    <Authors>JT</Authors>
+    <SpecialThanks>
+    </SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <AssemblyName>MyLOTR_MapsSecondAge</AssemblyName>
+    <RootNamespace>MyLOTR_MapsSecondAge</RootNamespace>
+    <AssociationData><![CDATA[<Associations>
+      <Dependency type="Mod" title="JT: Lord of the Rings Mod" id="849f25c2-b2b3-4a4a-8ef2-9f3a997a5f63" />
+      <Dependency type="Mod" title="JT: Lord of the Rings Mod Extra Leaders" id="c66884ad-bbb6-4f5b-a0f2-1da064df51a8" />
+    </Associations>]]></AssociationData>
+    <FrontEndActionData>
+        <![CDATA[
+          <FrontEndActions>
+            <AddMap id="AddMapLOTRSA">
+              <Properties>
+                <Name>LOTR SA Map</Name>
+                <Description>LOTR Second Age Map</Description>
+                <Group>StandardMaps</Group>
+              </Properties>
+              <File>LOTR_SA_World_Players.Civ6Map</File>
+            </AddMap>
+            <AddMap id="AddMapLOTRSAR&amp;F">
+              <Properties>
+                <Name>LOTR SA Map</Name>
+                <Description>LOTR Second Age Map</Description>
+                <Group>Maps:Expansion1Maps</Group>
+              </Properties>
+              <File>LOTR_SA_World_Players.Civ6Map</File>
+            </AddMap>
+          </FrontEndActions>]]>
+        </FrontEndActionData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="LOTR_SA_World_Players.Civ6Map">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

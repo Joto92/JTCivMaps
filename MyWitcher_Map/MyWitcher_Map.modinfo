@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="f5701e24-ccf2-4d81-9223-127c8ea20de3">
+<Properties>
+<Name>JT: Witcher Map</Name>
+<Stability>Final</Stability>
+<Teaser>Play the civilizations of Witcher in the Northern Realms and Nilfgaard.</Teaser>
+<Description>Play the civilizations of Witcher in the Northern Realms and Nilfgaard.</Description>
+<Authors>JT</Authors>
+</Properties>
+<Dependencies>
+    <Mod id="af83dd65-7f06-4686-a881-d284e2940bd5" title="JT: Witcher Mod" />
+  </Dependencies>
+<Settings>
+	<Custom id="WITCHERMAP_SETTINGS">
+		<Items>
+			<File>CM_Config.xml</File>
+		</Items>
+	</Custom>
+	
+
+	<Map id="AddMapWitcher">
+		<Properties>
+			<Group>StandardMaps</Group>
+        	<Name>Witcher Map</Name>
+        	<Description>Witcher Map</Description>
+		</Properties>
+		<Items>
+			<File>Maps/Witcher_World_Players.Civ6Map</File>
+		</Items>
+	</Map>
+
+
+	<Map id="AddMapWitcherR&amp;F">
+		<Properties>
+			<Group>Maps:Expansion1Maps</Group>
+        	<Name>Witcher Map</Name>
+        	<Description>Witcher Map</Description>
+		</Properties>
+		<Items>
+			<File>Maps/Witcher_World_Players.Civ6Map</File>
+		</Items>
+	</Map>
+</Settings>
+
+
+<Components>
+	<UpdateDatabase />
+</Components>
+
+<Files>
+		<File>Maps/Witcher_World_Players.Civ6Map</File>
+        <File>Maps/Witcher_World_Template.Civ6Map</File>
+		<File>CM_Config.xml</File>
+</Files>
+</Mod>

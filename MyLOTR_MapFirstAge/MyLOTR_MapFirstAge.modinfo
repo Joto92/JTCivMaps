@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="e4a1089c-7735-45d5-81e5-21a547dceb5f">
+<Properties>
+<Name>JT: LOTR First Age Map</Name>
+<Stability>Final</Stability>
+<Teaser>Play the first age map with the civilizations of Silmarillion.</Teaser>
+<Description>Play the first age map with the civilizations of Silmarillion.</Description>
+<Authors>JT</Authors>
+</Properties>
+<Dependencies>
+    <Mod id="849f25c2-b2b3-4a4a-8ef2-9f3a997a5f63" title="JT: Lord of the Rings Mod" />
+    <Mod id="9281353a-59db-47d3-ac6c-c391b2e426fa" title="JT: First Age Lord of the Rings Mod" />
+  </Dependencies>
+<Settings>
+	<Custom id="LOTRFAMAP_SETTINGS">
+		<Items>
+			<File>CM_Config.xml</File>
+		</Items>
+	</Custom>
+	
+
+	<Map id="AddMapLOTRFA">
+		<Properties>
+			<Group>StandardMaps</Group>
+        	<Name>LOTR FA Map</Name>
+        	<Description>LOTR First Age Map</Description>
+		</Properties>
+		<Items>
+			<File>Maps/LOTR_FA_World_Players.Civ6Map</File>
+		</Items>
+	</Map>
+
+
+	<Map id="AddMapLOTRFAR&amp;F">
+		<Properties>
+			<Group>Maps:Expansion1Maps</Group>
+        	<Name>LOTR FA Map</Name>
+        	<Description>LOTR First Age Map</Description>
+		</Properties>
+		<Items>
+			<File>Maps/LOTR_FA_World_Players.Civ6Map</File>
+		</Items>
+	</Map>
+</Settings>
+
+
+<Components>
+	<UpdateDatabase />
+</Components>
+
+<Files>
+		<File>Maps/LOTR_FA_World_Players.Civ6Map</File>
+        <File>Maps/LOTR_FA_World_Template.Civ6Map</File>
+		<File>CM_Config.xml</File>
+</Files>
+</Mod>
