@@ -6,18 +6,12 @@
 <Teaser>Map of the Warcraft World</Teaser>
 <Description>Map of the Warcraft World</Description>
 <Authors>JT</Authors>
+<CompatibleVersions>2.0</CompatibleVersions>
 </Properties>
 <Dependencies>
     <Mod id="f1c32ba6-b50b-413a-b251-1ac8147f289a" title="JT: WOW Civs" />
   </Dependencies>
 <Settings>
-	<Custom id="WOWMAP_SETTINGS">
-		<Items>
-			<File>CM_Config.xml</File>
-		</Items>
-	</Custom>
-	
-
 	<Map id="AddMapWOW">
 		<Properties>
 			<Group>StandardMaps</Group>
@@ -28,8 +22,6 @@
 			<File>Maps/WOW_World_Players.Civ6Map</File>
 		</Items>
 	</Map>
-
-
 	<Map id="AddMapWOWR&amp;F">
 		<Properties>
 			<Group>Maps:Expansion1Maps</Group>
@@ -38,6 +30,16 @@
 		</Properties>
 		<Items>
 			<File>Maps/WOW_World_Players.Civ6Map</File>
+		</Items>
+	</Map>
+	<Map id="AddMapWOWGathering">
+		<Properties>
+			<Group>Maps:Expansion2Maps</Group>
+        	<Name>WOW Map</Name>
+        	<Description>WOW Map</Description>
+		</Properties>
+		<Items>
+			<File>Maps/WOW_World_PlayersGatheringStorm.Civ6Map</File>
 		</Items>
 	</Map>
 </Settings>
@@ -50,6 +52,6 @@
 <Files>
 		<File>Maps/WOW_World_Players.Civ6Map</File>
         <File>Maps/WOW_World_Template.Civ6Map</File>
-		<File>CM_Config.xml</File>
+        <File>Maps/WOW_World_PlayersGatheringStorm.Civ6Map</File>
 </Files>
 </Mod>
