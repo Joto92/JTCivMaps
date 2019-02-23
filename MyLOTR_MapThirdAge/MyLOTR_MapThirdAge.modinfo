@@ -6,18 +6,12 @@
 <Teaser>Play the war of the ring with the civilizations of LOTR.</Teaser>
 <Description>Play the war of the ring with the civilizations of LOTR.</Description>
 <Authors>JT</Authors>
+<CompatibleVersions>2.0</CompatibleVersions>
 </Properties>
 <Dependencies>
     <Mod id="849f25c2-b2b3-4a4a-8ef2-9f3a997a5f63" title="JT: Lord of the Rings Mod" />
   </Dependencies>
 <Settings>
-	<Custom id="LOTRTAMAP_SETTINGS">
-		<Items>
-			<File>CM_Config.xml</File>
-		</Items>
-	</Custom>
-	
-
 	<Map id="AddMapLOTRTA">
 		<Properties>
 			<Group>StandardMaps</Group>
@@ -40,6 +34,16 @@
 			<File>Maps/LOTR_World_Players.Civ6Map</File>
 		</Items>
 	</Map>
+	<Map id="AddMapLOTRGathering">
+		<Properties>
+			<Group>Maps:Expansion2Maps</Group>
+        	<Name>LOTR TA Map</Name>
+        	<Description>LOTR Third Age Map</Description>
+		</Properties>
+		<Items>
+			<File>Maps/LOTR_World_PlayersGathering.Civ6Map</File>
+		</Items>
+	</Map>
 </Settings>
 
 
@@ -50,6 +54,6 @@
 <Files>
 		<File>Maps/LOTR_World_Players.Civ6Map</File>
         <File>Maps/LOTR_World_Template.Civ6Map</File>
-		<File>CM_Config.xml</File>
+        <File>Maps/LOTR_World_PlayersGathering.Civ6Map</File>
 </Files>
 </Mod>
