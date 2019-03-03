@@ -6,6 +6,7 @@
 <Teaser>Pack with Maps of the Warcraft World</Teaser>
 <Description>Pack with Maps of the Warcraft World</Description>
 <Authors>JT</Authors>
+<CompatibleVersions>2.0</CompatibleVersions>
 </Properties>
 <Dependencies>
     <Mod id="f1c32ba6-b50b-413a-b251-1ac8147f289a" title="JT: WOW Civs" />
@@ -13,13 +14,6 @@
     <Mod id="0951944c-126e-47b4-ae58-53d4a583875f" title="JT: World Of Warcraft Historial Leaders" />
   </Dependencies>
 <Settings>
-	<Custom id="WOWPACKMAP_SETTINGS">
-		<Items>
-			<File>CM_Config.xml</File>
-		</Items>
-	</Custom>
-	
-
 	<Map id="AddMapWOWComplete">
 		<Properties>
 			<Group>StandardMaps</Group>
@@ -41,7 +35,16 @@
 			<File>Maps/WOW_World_PlayersExtra.Civ6Map</File>
 		</Items>
 	</Map>
-
+	<Map id="AddMapWOWCompleteGathering">
+		<Properties>
+			<Group>Maps:Expansion2Maps</Group>
+        	<Name>WOW Complete Map</Name>
+        	<Description>WOW Complete Map</Description>
+		</Properties>
+		<Items>
+			<File>Maps/WOW_CompleteGatheringStorm.Civ6Map</File>
+		</Items>
+	</Map>
 	<Map id="AddMapWOWPreCata">
 		<Properties>
 			<Group>StandardMaps</Group>
@@ -61,6 +64,17 @@
 		</Properties>
 		<Items>
 			<File>Maps/WOW_World_PREPlayersExtra.Civ6Map</File>
+		</Items>
+	</Map>
+
+	<Map id="AddMapWOWPreCataGathering">
+		<Properties>
+			<Group>Maps:Expansion2Maps</Group>
+        	<Name>WOW Pre Cata Map</Name>
+        	<Description>WOW Pre Cataclysm Map</Description>
+		</Properties>
+		<Items>
+			<File>Maps/WOW_PreCataGatheringStorm.Civ6Map</File>
 		</Items>
 	</Map>
 
@@ -85,6 +99,17 @@
 			<File>Maps/WOW_Ancient_World_PlayersV2.Civ6Map</File>
 		</Items>
 	</Map>
+
+	<Map id="AddMapWOWAncientGathring">
+		<Properties>
+			<Group>Maps:Expansion2Maps</Group>
+        	<Name>WOW Ancient Map</Name>
+        	<Description>WOW Ancient Map</Description>
+		</Properties>
+		<Items>
+			<File>Maps/WOW_AncientGathering.Civ6Map</File>
+		</Items>
+	</Map>
 </Settings>
 
 
@@ -96,6 +121,9 @@
 		<File>Maps/WOW_World_PlayersExtra.Civ6Map</File>
         <File>Maps/WOW_World_PREPlayersExtra.Civ6Map</File>
         <File>Maps/WOW_Ancient_World_PlayersV2.Civ6Map</File>
-		<File>CM_Config.xml</File>
+
+        <File>Maps/WOW_CompleteGatheringStorm.Civ6Map</File>
+        <File>Maps/WOW_PreCataGatheringStorm.Civ6Map</File>
+        <File>Maps/WOW_AncientGathering.Civ6Map</File>
 </Files>
 </Mod>
