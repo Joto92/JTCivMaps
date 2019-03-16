@@ -110,6 +110,17 @@
 			<File>Maps/WOW_AncientGathering.Civ6Map</File>
 		</Items>
 	</Map>
+
+	<Map id="AddMapWOWDraenorGathring">
+		<Properties>
+			<Group>Maps:Expansion2Maps</Group>
+        	<Name>WOW Draenor Map</Name>
+        	<Description>WOW Draenor Map</Description>
+		</Properties>
+		<Items>
+			<File>Maps/WOW_DraenorGatheringStorm.Civ6Map</File>
+		</Items>
+	</Map>
 </Settings>
 
 
@@ -125,5 +136,6 @@
         <File>Maps/WOW_CompleteGatheringStorm.Civ6Map</File>
         <File>Maps/WOW_PreCataGatheringStorm.Civ6Map</File>
         <File>Maps/WOW_AncientGathering.Civ6Map</File>
+        <File>Maps/WOW_DraenorGatheringStorm.Civ6Map</File>
 </Files>
 </Mod>
