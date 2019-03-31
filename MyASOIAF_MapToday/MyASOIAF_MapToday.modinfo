@@ -6,18 +6,12 @@
 <Teaser>JT: ASOIAF Today Map</Teaser>
 <Description>In the player selection screen you have to choose the civilizationS that you want in this map. You can choose between Rob, Edmure, Petyr, Tywin, Stannis, Olenna, Joffrey, Doran, .... (Remove Random players if you don't want them to appear). The City states are fixed.</Description>
 <Authors>JT</Authors>
+<CompatibleVersions>2.0</CompatibleVersions>
 </Properties>
 <Dependencies>
     <Mod id="6e66a293-6a21-4650-bb3e-58d55c5fbcc1" title="JT: A Song of Ice And Fire " />
   </Dependencies>
 <Settings>
-	<Custom id="ASOAIFMAP_SETTINGS">
-		<Items>
-			<File>CM_Config.xml</File>
-		</Items>
-	</Custom>
-	
-
 	<Map id="AddASOAIFTodayMap">
 		<Properties>
 			<Group>StandardMaps</Group>
@@ -61,6 +55,28 @@
 			<File>Maps/WESTEROS_World_Players.Civ6Map</File>
 		</Items>
 	</Map>
+
+	<Map id="AddASOAIFTodayMapGathering">
+		<Properties>
+			<Group>Maps:Expansion2Maps</Group>
+        	<Name>ASOIAF Today Map</Name>
+        	<Description>ASOAIF Map of today</Description>
+		</Properties>
+		<Items>
+			<File>Maps/ASOIAF_World_PlayersGathering.Civ6Map</File>
+		</Items>
+	</Map>
+
+	<Map id="AddASOAIFWesterosMapGathering">
+		<Properties>
+			<Group>Maps:Expansion2Maps</Group>
+			<Name>ASOIAF Westeros Map</Name>
+			<Description>ASOAIF Map of Westeros</Description>
+		</Properties>
+		<Items>
+			<File>Maps/WESTEROS_World_PlayersGathering.Civ6Map</File>
+		</Items>
+	</Map>
 </Settings>
 
 
@@ -71,6 +87,7 @@
 <Files>
 		<File>Maps/WESTEROS_World_Players.Civ6Map</File>
         <File>Maps/ASOIAF_World_Players.Civ6Map</File>
-		<File>CM_Config.xml</File>
+        <File>Maps/ASOIAF_World_PlayersGathering.Civ6Map</File>
+        <File>Maps/WESTEROS_World_PlayersGathering.Civ6Map</File>
 </Files>
 </Mod>

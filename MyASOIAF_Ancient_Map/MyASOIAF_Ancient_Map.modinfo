@@ -6,19 +6,13 @@
 <Teaser>>Play the ASOIAF in the Ancient World Map with Valyria, Ghis, Sarnor, Rhoyne, the Children of the Forest and the rest of Civs.</Teaser>
 <Description>>Play the ASOIAF in the Ancient World Map with Valyria, Ghis, Sarnor, Rhoyne, the Children of the Forest and the rest of Civs.</Description>
 <Authors>JT</Authors>
+<CompatibleVersions>2.0</CompatibleVersions>
 </Properties>
 <Dependencies>
     <Mod id="6e66a293-6a21-4650-bb3e-58d55c5fbcc1" title="JT: A Song of Ice And Fire" />
     <Mod id="9f9e21fb-ffd8-495a-a8cc-2d9f13b9cfc5" title="JT: A Song of Ice And Fire Ancient" />
   </Dependencies>
 <Settings>
-	<Custom id="ASOIAFAncientMAP_SETTINGS">
-		<Items>
-			<File>CM_Config.xml</File>
-		</Items>
-	</Custom>
-	
-
 	<Map id="AddMapASOIAFAncient">
 		<Properties>
 			<Group>StandardMaps</Group>
@@ -41,6 +35,18 @@
 			<File>Maps/ASOIAF_World_AncientPlayers.Civ6Map</File>
 		</Items>
 	</Map>
+
+	<Map id="AddMapASOIAFAncientGathering">
+		<Properties>
+			<Group>Maps:Expansion2Maps</Group>
+        	<Name>ASOIAF Ancient Map</Name>
+        	<Description>ASOIAF Map of the Ancient World</Description>
+		</Properties>
+		<Items>
+			<File>Maps/ASOIAF_Ancient_PlayersGathering.Civ6Map</File>
+		</Items>
+	</Map>
+
 	<Map id="AddMapWesterosAncient">
 		<Properties>
 			<Group>StandardMaps</Group>
@@ -63,6 +69,17 @@
 			<File>Maps/WESTEROS_WorldAncient_Players.Civ6Map</File>
 		</Items>
 	</Map>
+
+	<Map id="AddMapWesterosAncientGathering">
+		<Properties>
+			<Group>Maps:Expansion2Maps</Group>
+        	<Name>ASOIAF Westeros Ancient Map</Name>
+        	<Description>ASOIAF Map of the Ancient Westeros</Description>
+		</Properties>
+		<Items>
+			<File>Maps/WESTEROS_Ancient_Gathering.Civ6Map</File>
+		</Items>
+	</Map>
 </Settings>
 
 
@@ -74,6 +91,8 @@
 		<File>Maps/ASOIAF_World_AncientPlayers.Civ6Map</File>
         <File>Maps/ASOIAF_World_AncientTemplate.Civ6Map</File>
         <File>Maps/WESTEROS_WorldAncient_Players.Civ6Map</File>
-		<File>CM_Config.xml</File>
+
+        <File>Maps/ASOIAF_Ancient_PlayersGathering.Civ6Map</File>
+        <File>Maps/WESTEROS_Ancient_Gathering.Civ6Map</File>
 </Files>
 </Mod>

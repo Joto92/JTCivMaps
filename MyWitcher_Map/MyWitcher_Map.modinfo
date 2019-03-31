@@ -6,18 +6,12 @@
 <Teaser>Play the civilizations of Witcher in the Northern Realms and Nilfgaard.</Teaser>
 <Description>Play the civilizations of Witcher in the Northern Realms and Nilfgaard.</Description>
 <Authors>JT</Authors>
+<CompatibleVersions>2.0</CompatibleVersions>
 </Properties>
 <Dependencies>
     <Mod id="af83dd65-7f06-4686-a881-d284e2940bd5" title="JT: Witcher Mod" />
   </Dependencies>
 <Settings>
-	<Custom id="WITCHERMAP_SETTINGS">
-		<Items>
-			<File>CM_Config.xml</File>
-		</Items>
-	</Custom>
-	
-
 	<Map id="AddMapWitcher">
 		<Properties>
 			<Group>StandardMaps</Group>
@@ -40,6 +34,16 @@
 			<File>Maps/Witcher_World_Players.Civ6Map</File>
 		</Items>
 	</Map>
+	<Map id="AddMapWitcherGathering">
+		<Properties>
+			<Group>Maps:Expansion2Maps</Group>
+        	<Name>Witcher Map</Name>
+        	<Description>Witcher Map</Description>
+		</Properties>
+		<Items>
+			<File>Maps/Witcher_World_Gathering.Civ6Map</File>
+		</Items>
+	</Map>
 </Settings>
 
 
@@ -50,6 +54,6 @@
 <Files>
 		<File>Maps/Witcher_World_Players.Civ6Map</File>
         <File>Maps/Witcher_World_Template.Civ6Map</File>
-		<File>CM_Config.xml</File>
+		<File>Maps/Witcher_World_Gathering.Civ6Map</File>
 </Files>
 </Mod>

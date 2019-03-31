@@ -6,19 +6,13 @@
 <Teaser>Play the first age map with the civilizations of Silmarillion.</Teaser>
 <Description>Play the first age map with the civilizations of Silmarillion.</Description>
 <Authors>JT</Authors>
+<CompatibleVersions>2.0</CompatibleVersions>
 </Properties>
 <Dependencies>
     <Mod id="849f25c2-b2b3-4a4a-8ef2-9f3a997a5f63" title="JT: Lord of the Rings Mod" />
     <Mod id="9281353a-59db-47d3-ac6c-c391b2e426fa" title="JT: First Age Lord of the Rings Mod" />
   </Dependencies>
 <Settings>
-	<Custom id="LOTRFAMAP_SETTINGS">
-		<Items>
-			<File>CM_Config.xml</File>
-		</Items>
-	</Custom>
-	
-
 	<Map id="AddMapLOTRFA">
 		<Properties>
 			<Group>StandardMaps</Group>
@@ -41,6 +35,17 @@
 			<File>Maps/LOTR_FA_World_Players.Civ6Map</File>
 		</Items>
 	</Map>
+
+	<Map id="AddMapLOTRFAGathering">
+		<Properties>
+			<Group>Maps:Expansion2Maps</Group>
+        	<Name>LOTR FA Map</Name>
+        	<Description>LOTR First Age Map</Description>
+		</Properties>
+		<Items>
+			<File>Maps/LOTR_FA_World_Gathering.Civ6Map</File>
+		</Items>
+	</Map>
 </Settings>
 
 
@@ -51,6 +56,6 @@
 <Files>
 		<File>Maps/LOTR_FA_World_Players.Civ6Map</File>
         <File>Maps/LOTR_FA_World_Template.Civ6Map</File>
-		<File>CM_Config.xml</File>
+		<File>Maps/LOTR_FA_World_Gathering.Civ6Map</File>
 </Files>
 </Mod>
